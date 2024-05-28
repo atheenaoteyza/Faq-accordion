@@ -37,6 +37,7 @@ h1 {
 h2 {
   font-weight: 600;
   padding: 1rem;
+  padding-left: 0;
 }
 
 h2:hover {
