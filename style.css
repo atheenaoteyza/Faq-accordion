@@ -36,7 +36,7 @@ h1 {
 }
 h2 {
   font-weight: 600;
-  padding-top: 1rem;
+  padding: 1rem;
 }
 
 h2:hover {
@@ -44,14 +44,13 @@ h2:hover {
 }
 
 p {
-  display: none;
   font-size: 16px;
-  padding: 1em 0;
+  padding: 1em;
   color: var(--grayp);
 }
 
 .line {
-  padding: 1em 0;
+  padding: 1em;
   border-bottom: var(--lightpurple) solid 2px;
   padding-top: 0;
 }
@@ -68,7 +67,7 @@ p {
 }
 .text {
   display: block;
-  width: 43%;
+  width: 48%;
   margin: 100px auto;
   background-color: white;
   border-radius: 1rem;
