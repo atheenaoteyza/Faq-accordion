@@ -48,6 +48,7 @@ p {
   font-size: 16px;
   padding: 1em;
   color: var(--grayp);
+  padding-left: 0;
 }
 
 .line {
