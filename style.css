@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+:root {
+  --lightpink: hsl(275, 100%, 97%);
+  --lightpurple: hsl(275, 100%, 96%);
+  --white: hsl(0, 0%, 100%);
+  --grayishpurple: hsl(293, 39%, 50%);
+  --darkpurple: hsl(292, 42%, 14%);
+  --paragraph: #7c6880;
+  --grayp: hsl(292, 16%, 49%);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+/* Remove default margin */
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+
+body {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  background-color: var(--lightpink);
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  padding: 0.5em;
+  color: var(--darkpurple);
+}
+h2 {
+  font-weight: 600;
+  padding-top: 1rem;
+}
+
+p {
+  font-size: 16px;
+  padding: 1em 0;
+  color: var(--grayp);
+}
+
+.line {
+  padding: 1em 0;
+  border-bottom: var(--lightpurple) solid 2px;
+  padding-top: 0;
+}
+.faq-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-image: url(assets/images/background-pattern-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: fixed;
+  background-position: top;
+  line-height: 1.5;
+}
+.text {
+  display: block;
+  width: 43%;
+  margin: 100px auto;
+  background-color: white;
+  border-radius: 1rem;
+}
+
+.only-text {
+  width: 80%;
+  margin: 0 auto;
+}
+
+button {
+  height: 1.5em;
+  width: 1.5em;
+  margin-left: auto;
+  border-radius: 16px;
+  background-color: var(--grayishpurple);
+  box-shadow: none;
+  border: solid 1px var(--grayishpurple);
+  color: var(--white);
+  font-size: 16px;
+  margin-top: 1em;
+}
+button:hover {
+  cursor: pointer;
+  background-color: var(--darkpurple);
+  color: var(--white);
+}
+
+h2 {
+  width: 100%;
+}
+.flex {
+  display: flex;
+}
